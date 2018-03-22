@@ -16,16 +16,22 @@
                     <items>
                         <table alignment="left" id="Q9G-RI-Bgq">
                             <items>
-                                <tableRow id="LAn-li-wkN">
+                                <tableRow identifier="RowInterfaceController" id="LAn-li-wkN" customClass="RowInterfaceController" customModule="WristQuotes_WatchKit_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="hl7-4d-cKj">
                                         <items>
                                             <label alignment="left" text="Label" id="Zed-Wx-ztK"/>
                                         </items>
                                     </group>
+                                    <connections>
+                                        <outlet property="quoteLabel" destination="Zed-Wx-ztK" id="FXW-9F-j2D"/>
+                                    </connections>
                                 </tableRow>
                             </items>
                         </table>
                     </items>
+                    <connections>
+                        <outlet property="table" destination="Q9G-RI-Bgq" id="u7m-vO-4u8"/>
+                    </connections>
                 </controller>
             </objects>
         </scene>

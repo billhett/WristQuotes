@@ -19,6 +19,7 @@
 		A957BC52206413DB00CD34D8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A957BC51206413DB00CD34D8 /* InterfaceController.swift */; };
 		A957BC54206413DB00CD34D8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A957BC53206413DB00CD34D8 /* ExtensionDelegate.swift */; };
 		A957BC56206413DB00CD34D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A957BC55206413DB00CD34D8 /* Assets.xcassets */; };
+		A957BC66206414AA00CD34D8 /* RowInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A957BC65206414AA00CD34D8 /* RowInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		A957BC53206413DB00CD34D8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		A957BC55206413DB00CD34D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A957BC57206413DB00CD34D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A957BC65206414AA00CD34D8 /* RowInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				A957BC51206413DB00CD34D8 /* InterfaceController.swift */,
+				A957BC65206414AA00CD34D8 /* RowInterfaceController.swift */,
 				A957BC53206413DB00CD34D8 /* ExtensionDelegate.swift */,
 				A957BC55206413DB00CD34D8 /* Assets.xcassets */,
 				A957BC57206413DB00CD34D8 /* Info.plist */,
@@ -299,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A957BC54206413DB00CD34D8 /* ExtensionDelegate.swift in Sources */,
+				A957BC66206414AA00CD34D8 /* RowInterfaceController.swift in Sources */,
 				A957BC52206413DB00CD34D8 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
