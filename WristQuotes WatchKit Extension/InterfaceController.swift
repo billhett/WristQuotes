@@ -11,11 +11,23 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
-
+    
+    @IBOutlet var table: WKInterfaceTable!
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
+        var quotes = ["quote 1","quote 2"]
         
-        // Configure interface objects here.
+        self.table.setNumberOfRows(quotes.count, withRowType: "QuoteRow")
+        var count = 0
+        
+        for quote in quotes {
+            var row = self.table.rowController(at: count) as! QuoteRow
+            print("row is \(count)")
+            row.quoteLabel.setText(quote)
+            count += 1
+        }
+        
     }
     
     override func willActivate() {
